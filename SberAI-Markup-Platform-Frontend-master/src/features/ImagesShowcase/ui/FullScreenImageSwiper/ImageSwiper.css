@@ -1,0 +1,11 @@
+swiper-container::part(bullet) {
+  width: 30px;
+  height: 30px;
+  background-color: #505050;
+}
+
+swiper-container::part(bullet-active) {
+  width: 30px;
+  height: 30px;
+  background-color: #21a049;
+}

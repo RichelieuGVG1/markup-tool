@@ -1,0 +1,116 @@
+@import "@/shared/styles/mixins";
+.content {
+  display: flex;
+}
+
+.remark {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.weight_400 {
+  font-weight: 400;
+}
+
+.weight_500 {
+  font-weight: 500;
+}
+
+.weight_600 {
+  font-weight: 600;
+}
+.weight_700 {
+  font-weight: 700;
+}
+
+.s {
+  font-size: var(--font-size-s);
+}
+
+.m {
+  font-size: var(--font-size-m);
+}
+
+.l {
+  font-size: var(--font-size-l);
+}
+
+.xl {
+  font-size: var(--font-size-xl);
+}
+
+.xxl {
+  font-size: var(--font-size-xxl);
+}
+
+.primary {
+  color: var(--text-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.secondary {
+  color: var(--text-color-secondary);
+}
+
+.warning {
+  color: var(--warning-color);
+}
+
+.secondary-muted {
+  color: var(--text-color-secondary-muted);
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.gray {
+  color: var(--gray-thirdly);
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.cut {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@include mobile {
+  .s {
+    font-size: var(--font-size-xs);
+  }
+  .m {
+    font-size: var(--font-size-s);
+  }
+
+  .l {
+    font-size: var(--font-size-m);
+  }
+
+  .xl {
+    font-size: var(--font-size-l);
+  }
+
+  .xxl {
+    font-size: var(--font-size-xl);
+  }
+}

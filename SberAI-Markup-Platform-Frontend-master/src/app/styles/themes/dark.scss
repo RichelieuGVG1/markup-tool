@@ -1,0 +1,23 @@
+:root {
+  // Text
+  --text-color: #fff;
+  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --text-color-secondary-muted: #707070;
+
+  --bg-primary: #151515;
+
+  --hint-color: rgba(255, 255, 255, 0.5);
+  --hint-color-muted: rgba(255, 255, 255, 0.2);
+  --hint-color-super-muted: rgba(255, 255, 255, 0.15);
+
+  --gray-primary: #373737;
+  --gray-secondary: #252525;
+  --gray-thirdly: #505050;
+
+  --accent-color: #21a049;
+  --accent-color-muted: rgba(33, 160, 73, 0.7);
+  --accent-color-super-muted: rgba(33, 160, 73, 0.4);
+
+  --error-color: #BB0000;
+  --warning-color: #E59700;
+}

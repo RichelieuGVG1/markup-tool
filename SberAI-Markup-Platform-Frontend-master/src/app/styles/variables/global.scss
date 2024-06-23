@@ -1,0 +1,21 @@
+:root {
+  --font-family-main: Montserrat, sans-serif;
+
+
+  --font-size-xs: 12px;
+  --font-size-s: 14px;
+  --font-size-m: 18px;
+  --font-size-l: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 48px;
+
+  --navbar-height: 90px;
+  --mobile-navbar-height: 70px;
+  --mobile-navbar-task: 60px;
+  --navbar-z-index: 50;
+
+  --modal-z-index: 100;
+  --overlay-background:rgb(0 0 0 / 60%);
+  --transition-duration: 300ms;
+  --transition-opacity: opacity var(--transition-duration);
+}
